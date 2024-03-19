@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_draw.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_dx9.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_impl_win32.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+    <ClCompile Include="Imgui\imgui_widgets.cpp">
+      <Filter>framework</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="drawings.h">
+      <Filter>drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="d3d9_x.h">
+      <Filter>drawing</Filter>
+    </ClInclude>
+    <ClInclude Include="sdk.h">
+      <Filter>sdk</Filter>
+    </ClInclude>
+    <ClInclude Include="features.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="driver.h">
+      <Filter>driver</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="FVector.h">
+      <Filter>extra</Filter>
+    </ClInclude>
+    <ClInclude Include="Keybind.h">
+      <Filter>extra</Filter>
+    </ClInclude>
+    <ClInclude Include="skStr.h">
+      <Filter>extra</Filter>
+    </ClInclude>
+    <ClInclude Include="win_utils.h">
+      <Filter>extra</Filter>
+    </ClInclude>
+    <ClInclude Include="overlay.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="x.hpp">
+      <Filter>extra</Filter>
+    </ClInclude>
+    <ClInclude Include="driverdefs.h">
+      <Filter>driver</Filter>
+    </ClInclude>
+    <ClInclude Include="auth.hpp">
+      <Filter>extra</Filter>
+    </ClInclude>
+    <ClInclude Include="menuitems.h">
+      <Filter>main</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\GainV4\Fn\lazy.h">
+      <Filter>extra</Filter>
+    </ClInclude>
+    <ClInclude Include="lazyimp.hpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="drawing">
+      <UniqueIdentifier>{78244a5d-a460-44b4-aa55-759a64766c9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sdk">
+      <UniqueIdentifier>{40042e21-7897-4747-be47-a9dd5169aaee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{13955aa4-cf16-4970-8127-57d445c6c2af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="framework">
+      <UniqueIdentifier>{e8222c7d-275a-471b-b799-27e5dd9d2bb5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="driver">
+      <UniqueIdentifier>{376ee197-6402-4e1c-87cf-2f81be79494b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="extra">
+      <UniqueIdentifier>{a64814fe-acce-42d7-8ee2-6d5e84dc069e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="decryption.asm">
+      <Filter>extra</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="libcurl.lib">
+      <Filter>extra</Filter>
+    </Library>
+    <Library Include="library_x64.lib">
+      <Filter>extra</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
